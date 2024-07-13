@@ -1,5 +1,55 @@
 /*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+This is just a placeholder blank stylesheet so as to support adding custom styles bundled with theme's default styles
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+/* assets/css/custom.css or static/css/custom.css */
+.callout {
+    border-radius: 5px;
+    padding: 15px;
+    margin: 1.5em 0px;
+}
+
+.callout p {
+    margin-bottom: 0px;
+}
+
+.callout-info {
+    background-color: #d9edf7;
+}
+
+.callout-info strong {
+    color: #31708f; /* A bolder blue color */
+    font-weight: bold;
+}
+
+.callout-warning {
+    background-color: #fcf8e3;
+    border-left: 5px solid #8a6d3b;
+}
+
+.callout-warning strong {
+    color: #8a6d3b; /* A bolder warning color */
+    font-weight: bold;
+}
+
+.callout-success {
+    background-color: #dff0d8;
+    border-left: 5px solid #3c763d;
+}
+
+.callout-success strong {
+    color: #3c763d; /* A bolder success color */
+    font-weight: bold;
+}
+
+.callout-danger {
+    background-color: #f2dede;
+    border-left: 5px solid #a94442;
+}
+
+.callout-danger strong {
+    color: #a94442; /* A bolder danger color */
+    font-weight: bold;
+}
